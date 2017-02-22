@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<head>
+	<title>My First Page with AngularJS</title>
+</head>
+<body>
+
+<div data-ng-app="" data-ng-init="myCol='lightblue';quantity=4;cost=5;firstName='Bruno';lastName='Moreno'">
+
+	<p>Input something in the input box:</p>
+	<p>Name: <input type="text" data-ng-model="name" placeholder="Enter name here"></p>
+
+	<h1>Hello {{name}}</h1>
+	<br/>
+
+	<h1>Testing Expressions</h1>
+
+	<p>My First Expression {{ 5 + 5 }}</p>
+
+	<h2>AngularJS changing CSS properties</h2>
+
+	<input style="background-color: {{ myCol }}" data-ng-model="myCol" value="{{ myCol }}">
+
+	<h2>AngularJS - Numbers and Strings</h2>
+	<h4>PS. ng-init is not very common</h4>
+
+	<p>Numbers with ng-bind <span data-ng-bind="quantity * cost"></span></p>
+
+	<p>String with two braces - The name is {{ firstName +  " " + lastName }}</p>
+
+	<h2>AngularJS - Objects</h2>
+	<p data-ng-init="person={firstName:'Finn',lastName:'Morrison'}">
+		The name with Object is - {{ person.firstName }}
+	</p>
+
+	<h2>AngularJS - Arrays</h2>
+	<div data-ng-init="points=[1,15,23,2,40]">
+	<p>The third result is <span data-ng-bind="points[2]"></span></p>
+
+</div>
+
+<p>My First Expression - without ng-app directive {{ 5 + 5 }}</p>
+
+
+</body>
+</html>

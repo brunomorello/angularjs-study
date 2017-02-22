@@ -1,0 +1,11 @@
+AngularJS Study History
+
+**** TO-DO:
+	https://www.youtube.com/watch?v=tjG31t5JHzw - Front End Web Development Tutorial | How to Design Website with HTML
+
+2017-02-21:
+
+	- Start course / Intro / Expressions
+	- Last URL: https://www.w3schools.com/angular/angular_expressions.asp
+
+	** Next Lesson: Modules **
