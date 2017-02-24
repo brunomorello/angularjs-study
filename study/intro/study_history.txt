@@ -9,3 +9,11 @@ AngularJS Study History
 	- Last URL: https://www.w3schools.com/angular/angular_expressions.asp
 
 	** Next Lesson: Modules **
+
+2017-02-23:
+
+	- Modules
+	- New examples: modules_example.html / directives_examplet.html
+	- Last URL: https://www.w3schools.com/angular/angular_directives.asp
+
+	** Next Lesson: Directives **
